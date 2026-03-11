@@ -12,7 +12,7 @@ class StatisticsHelper
     
     public static double CalculateAverage(int[] values)
     {
-        int avg = values[0];
+        int avg = 0;
         foreach (var num in values)
         {
             avg += num;
