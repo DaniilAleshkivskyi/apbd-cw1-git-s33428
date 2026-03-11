@@ -9,7 +9,6 @@ class StatisticsHelper
         
     }
     
-    
     public static double CalculateAverage(int[] values)
     {
         int avg = 0;
@@ -18,5 +17,16 @@ class StatisticsHelper
             avg += num;
         }
         return avg / values.Length;
+    }
+    
+    public static int CalculateMax(int[] values){int max = values[0];
+        foreach (var num in values)
+        {
+            if (num > max)
+            {
+                max = num;
+            }
+        }
+        return max;
     }
 }
