@@ -12,5 +12,11 @@ class StatisticsHelper
     
     public static double CalculateAverage(int[] values)
     {
+        int avg = values[0];
+        foreach (var num in values)
+        {
+            avg += num;
+        }
+        return avg / values.Length;
     }
 }
