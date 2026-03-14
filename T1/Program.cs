@@ -35,12 +35,12 @@ class StatisticsHelper
         int min = values[0];
         foreach (var num in values)
         {
-            if (num > max)
+            if (num < min)
             {
-                max = num;
+                min = num;
             }
             
         }
-        return max;
+        return min;
     }
 }
