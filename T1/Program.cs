@@ -18,7 +18,7 @@ class StatisticsHelper
         }
         return avg / values.Length;
     }
-    
+    //LAALLSDASDAHSDHAUSHDOUHUHDUHUQHDOHQOEHDOUE
     public static int CalculateMax(int[] values){int max = values[0];
         foreach (var num in values)
         {
