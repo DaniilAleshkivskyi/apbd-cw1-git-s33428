@@ -43,4 +43,6 @@ class StatisticsHelper
         }
         return min;
     }
+    
+    //SOME CONFLICT IN MAIasdadasda
 }
