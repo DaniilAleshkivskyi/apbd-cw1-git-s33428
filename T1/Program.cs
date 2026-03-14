@@ -30,6 +30,17 @@ class StatisticsHelper
         return max;
     }
     
-    public static int CalculateMin(int[] values){
+    public static int CalculateMin(int[] values)
+    {
+        int min = values[0];
+        foreach (var num in values)
+        {
+            if (num > max)
+            {
+                max = num;
+            }
+            
+        }
+        return max;
     }
 }
